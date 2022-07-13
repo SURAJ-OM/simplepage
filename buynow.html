@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>query form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Thank you for your submission";
+        }
+    </script>
+    <form>
+        <PRE>
+                First Name: <INPUT TYPE="text"
+                NAME="FirstName">
+                Last Name: <INPUT TYPE="text"
+                NAME="LastName">
+                Number: <input type="number" id="quantity" name="Number">
+                Location: <textarea name="Address" id="" cols="2" rows="3"></textarea>
+                States: <SELECT NAME="States">
+                    <OPTION>Andhrapredesh
+                    <OPTION>Delhi
+                    <OPTION>Maharastra
+                    <OPTION>Bihar
+                </SELECT>
+                    <INPUT TYPE="Submit" id="demo" onclick="myFunction()" VALUE="Submit">
+            </PRE>
+    </form>
+
+
+</body>
+
+</html>

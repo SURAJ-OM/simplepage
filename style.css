@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    background-color: rgb(133, 184, 184);
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    color: aqua;
+    text-align: center;
+
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+
+table.test td {
+    margin: 12px 12px 12px 12px;
+    padding: 12px 12px 12px 12px;
+}
+
+
+img {
+    border: 3px solid red;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 200px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(249, 11, 11);
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
